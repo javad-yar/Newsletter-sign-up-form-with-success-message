@@ -1,0 +1,25 @@
+body{background-color: hsl(235, 18%, 26%)}
+#a001{
+    width: 750px;
+    height: 500px;
+    border-style: solid;
+    background-color: white;
+    border-color: white;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 25px;
+    }
+#a002{
+    width: 45%;
+    height: 95%;
+    margin-top: 13px;
+    margin-left: 54%;
+    content: url(../assets/images/illustration-sign-up-desktop.svg);
+}
+p{display: inline-block;}
+#myText{
+    float: left;
+    height: 100px;
+    width: 100px;
+    /* background-color: blueviolet; */
+}
