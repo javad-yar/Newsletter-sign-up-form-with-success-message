@@ -1,5 +1,16 @@
+@font-face {
+    font-family: "roboto-bold";
+    src: url(../assets/fonts/Roboto-Bold.woff);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(../assets/fonts/Roboto-Regular.woff);
+}
+/* p{display: inline-block;} */
 body{background-color: hsl(235, 18%, 26%)}
-#a001{
+ul{padding: 0px; list-style-type: none;}
+
+#main{
     width: 750px;
     height: 500px;
     border-style: solid;
@@ -9,17 +20,67 @@ body{background-color: hsl(235, 18%, 26%)}
     margin-top: 7%;
     border-radius: 25px;
     }
-#a002{
+#pic{
     width: 45%;
     height: 95%;
     margin-top: 13px;
     margin-left: 54%;
     content: url(../assets/images/illustration-sign-up-desktop.svg);
 }
-p{display: inline-block;}
 #myText{
     float: left;
-    height: 100px;
-    width: 100px;
+    margin-left: 55px;
+    height: 90%;
+    width: 350px;
     /* background-color: blueviolet; */
 }
+#header{
+    font-family: 'roboto-bold';
+    font-size: 47px;
+    color: hsl(234, 29%, 20%);
+    margin: 47px 0px 10px 0px;
+}
+.text{
+    font-family: 'roboto';
+    font-size: 14px;
+}
+.myitems{
+    /* content: url(../assets/images/icon-list.svg); */
+    padding-top:15px ;
+    display: block;
+}
+.cItems{
+    margin: 5px 0px 0px 10px;
+    display: inline-block;
+    font-family: 'roboto';
+    font-size: 14px;
+}
+.pic2{
+    float:left;
+    margin-top: 2px;
+    display: inline-block;
+}
+#labe{
+    font-family: 'roboto-bold';
+    font-size: 13px;
+    margin-top: 40px;
+    color: hsl(234, 29%, 20%);;
+}
+#inp{
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    border-color: hsl(231, 7%, 60%);
+    border-style: solid;
+}
+#mybtn{
+    margin-top: 20px;
+    width: 307.5px;
+    height: 43px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'roboto';
+}
+
