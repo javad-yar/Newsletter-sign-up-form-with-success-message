@@ -8,4 +8,4 @@ Thanks for checking out this front-end code.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this code, we need a basic understanding of HTML, CSS and JavaScript.**
+**For understanding this code, we need a basic understanding of HTML, CSS and JavaScript.**
