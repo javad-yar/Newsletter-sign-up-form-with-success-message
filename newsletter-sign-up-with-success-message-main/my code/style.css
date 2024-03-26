@@ -7,7 +7,9 @@
     src: url(../assets/fonts/Roboto-Regular.woff);
 }
 /* p{display: inline-block;} */
-body{background-color: hsl(235, 18%, 26%)}
+body{
+    background-color: hsl(235, 18%, 26%)
+}
 ul{padding: 0px; list-style-type: none;}
 
 #main{
@@ -68,10 +70,11 @@ ul{padding: 0px; list-style-type: none;}
 }
 #inp{
     border-radius: 5px;
-    width: 300px;
+    width: 270px;
     height: 40px;
     border-color: hsl(231, 7%, 60%);
     border-style: solid;
+    padding-left: 30px;
 }
 #mybtn{
     margin-top: 20px;
@@ -83,4 +86,21 @@ ul{padding: 0px; list-style-type: none;}
     border-radius: 5px;
     font-family: 'roboto';
 }
+#mybtn::before {
+    background: linear-gradient(to right, rgb(255, 83, 141) , rgb(234, 102, 50));
+    box-shadow: 10px 10px 15px rgba(253, 114, 160, 0.355);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#mybtn:hover::before {
+    /* background-color: rgb(255, 83, 141); */
+    /* background: linear-gradient(to right, rgb(255, 83, 141) , rgb(234, 102, 50)); */
+    /* box-shadow: 10px 10px 15px rgba(253, 114, 160, 0.355); */
+    /* transition: background-color 3s ease, box-shadow 3s ease; */
+    /* transition: background 0.3s ease; */
+    opacity: 1;
+    transition-delay: 0.5s; 
+
+}
+
 
