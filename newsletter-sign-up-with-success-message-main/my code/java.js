@@ -8,12 +8,23 @@ $(document).ready(function () {
         this.style = "border-color: hsl(231, 7%, 60%);";
 
     })
-    function ValidateEmail() {
-        let mail = document.getElementById("inp").value
-        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value)){
-            return (true)
+
+    $("#mybtn").click(function() {
+        var email = $("#inp").val();
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(emailRegex.test(email)){
+            $("#error-message").text("valid email address!");
+
         }
-        alert("You have entered an invalid email address!")
-        return (false)
-    }
+        else{
+            $("#error-message").text("email address not valid!");
+            alert("not valid")
+            $("#inp").style = "background-color: red"
+            $("#inp").style = "border-color: rgb(190, 34, 34);"
+
+        };
+    
+    });
+
+    
 })
