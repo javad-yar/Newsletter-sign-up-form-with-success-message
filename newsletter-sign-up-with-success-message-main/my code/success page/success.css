@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "roboto-bold";
+    src: url(../assets/fonts/Roboto-Bold.woff);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(../assets/fonts/Roboto-Regular.woff);
+}
+body{
+    background-color: hsl(235, 18%, 26%)
+}
